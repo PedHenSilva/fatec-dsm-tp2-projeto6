@@ -14,7 +14,7 @@ class LegacyDrinkSystem {
     }
 }
 
-// 2. Padrão Adapter (Sistema Legado -> Interface de Bebida)
+// Padrão Adapter (Sistema Legado -> Interface de Bebida)
 class DrinkAdapter {
     constructor(legacySystem) {
         this.legacySystem = legacySystem;
